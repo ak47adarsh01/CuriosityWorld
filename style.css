@@ -1,0 +1,73 @@
+body {
+  box-sizing: border-box;
+  font-family: monospace, cursive, sans-serif;
+  background: url('index.jpg');
+  background-size: cover;
+  background-attachment: scroll;
+
+}
+.navbar ul {
+  float: right;
+  list-style: none;
+}
+.navbar li {
+  display: inline-flex;
+  position: relative;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+  font-family: 'Audiowide',cursive;
+  padding: 8px 12px;
+}
+.navbar a::before {
+    content: '';
+    display: inline-flex;
+    height: 3px;
+    background-color: #05EDFF;
+    position: absolute;
+    bottom: -2px;
+    width: 0;
+    transition: all ease-in-out 220ms;
+}
+.navbar a:hover::before {
+    width: 85%;
+}
+.logo img {
+  height: 20px;
+  margin-left: 60px;
+  margin-top: -22px;
+}
+.head h1 {
+  margin-top: 140px;
+  margin-left: 130px;
+  font-family: 'Contrail One', cursive;
+  font-size: 60px;
+  color: #05EDFF;
+}
+.disc p {
+  color: #ADD8E6;
+  font-size: 23px;
+  margin-left: 130px;
+  font-family: 'Contrail One', cursive;
+}
+.forward button {
+  margin-left: 130px;
+  color: #ADD8E6;
+  margin-top: 50px;
+  font-size: 16px;
+  background-color: inherit;
+  border-radius: 10px;
+  border: 2px solid #05EDFF;
+  padding: 10px 8px;
+}
+.forward button:hover {
+  color: #05EDFF;
+  border: 2px solid #ADD8E6;
+}
+footer p {
+  color: #05EDFF;
+  float: right;
+  margin-top: 60px;
+}
